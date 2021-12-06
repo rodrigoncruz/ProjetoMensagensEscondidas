@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Passinho do Romano</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="titulo">DIGITE AQUI SUA MENSAGEM</p>
+        <br>
+      <form action="">
+        <input type="text" name="" id="text" />
+        <br /><br />
+
+        <div>
+          <select name="" id="select">
+            <option value="escolha uma opção">Escolha uma opção</option>
+            <option value="Cifra de Cesar">Cifra de Cesar</option>
+            <option value="Base64">Base64</option>
+          </select>
+        </div>
+        <br>
+        <div id="divInputNumber">
+          <input type="number" min="1" max="25" id="inputNumber">
+          <label for="">Escolha um número</label>
+        </div>
+        <br />
+        <div>
+          <input
+            type="radio"
+            name="btnCodificar"
+            value="codificar"
+            id="codificar"
+          />
+          <label for="codifica">Codificar</label>
+
+          <input
+            type="radio"
+            name="btnCodificar"
+            value="decodificar"
+            id="decodificar"
+          />
+          <label for="decodifica">Decodificar</label>
+        </div>
+        <br />
+        <button type="submit" value="" id="envio">Enviar</button>
+      </form>
+      <div id="valorImput"></div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
